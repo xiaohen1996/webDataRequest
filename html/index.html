@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Currency Exchange From USD to EUR and Generate excuses</title>
+		<style>
+			body, form{
+				margin:20px auto;
+				max-width:800px;
+				overflow-x:hidden;
+			}
+			fieldset{
+				display: flex;
+			}
+			input#description{
+				flex-grow:50;
+				margin: 0 20px;
+			}
+			input#location{
+				flex-grow:50;
+				margin: 0 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="Submit" method="get">
+			<fieldset>
+				<legend>Currency Exchange From USD to EUR and Generate excuses</legend>
+				<label for="amount">Amount input: </label>
+				<input id="amount" name="amount" type="text" />
+				
+				<label for="excusesNumber">number of excueses(number less than 20): </label>
+				<input id="excusesNumber" name="number" type="text" />
+
+				<input type="submit" value="Submit" />
+			</fieldset>
+		</form>
+	</body>
+</html>
